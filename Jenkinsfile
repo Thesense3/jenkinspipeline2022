@@ -11,10 +11,10 @@ stages {
 }
 
 
-	stage ('Deploy now') {
+	stage ('build') {
 		steps {
 
-			 echo "delploy codeit is"
+			  sh 'mvn clean package'
 		}
 }
 
