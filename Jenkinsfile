@@ -10,18 +10,18 @@ stages {
 }
 
 
-	stage ('Deploy') {
+	stage ('Deploy now') {
 		steps {
 
-			 echo "delploy code"
+			 echo "delploy codeit is"
 		}
 }
 
 
-	stage ('Test') {
+	stage ('Test now') {
 		steps{ 
 		
-			echo "test code"
+			echo "test code it is"
 		}
 	}
 
