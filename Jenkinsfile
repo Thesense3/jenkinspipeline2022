@@ -19,10 +19,10 @@ stages {
 }
 
 
-	stage ('Test now') {
+	stage ('deploy') {
 		steps{ 
 		
-			echo "test code it is"
+			 sh 'java -jar target/*.jar'
 		}
 	}
 
