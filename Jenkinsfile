@@ -6,6 +6,7 @@ stages {
 	stage ('SCM') {
 		steps {
 				echo "git pull code"
+				git "https://github.com/Thesense3/simple-java-maven-app.git"		
 			}	
 }
 
